@@ -181,6 +181,7 @@ from . import toolbox
 from . import calcs
 from . import ansys
 from . import core
+from . import data_processing
 
 from .ansys import parse_units, parse_units_user, parse_entry
 from .core import ProjectInfo, DistributedAnalysis, QuantumAnalysis,\
@@ -201,7 +202,8 @@ __all__ = [
     'pyEPR_Analysis',  # names to be depricated
     'parse_units',
     'parse_units_user',
-    'parse_entry'
+    'parse_entry',
+    'data_processing'
 ]
 
 # TODO: Add "about" method. Add to tutorial
